@@ -12,7 +12,7 @@
 	<distributionManagement>
   	<repository>
   		<id>NeoGit</id>
-  		<url>https://github.com/talluru37/NeoGit</url>
+  		<url>scm:git:git://github.com/talluru37/NeoGit</url>
   	</repository>
   </distributionManagement>
 
