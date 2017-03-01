@@ -16,4 +16,10 @@ public class App
     	System.out.println("inside getMessage");
     	return "sucess";
     }
+    
+    public String getSITMessage()
+    {
+    	System.out.println("inside getMessage");
+    	return "sucess";
+    }
 }
