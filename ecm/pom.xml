@@ -22,4 +22,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.7</version>
+      </plugin>
+    </plugins>
+  </reporting>
+  
+  
+  <scm>
+  	<url>https://github.com/talluru37/NeoGit</url>
+  	<connection>scm:git:git://github.com/talluru37/NeoGit.git</connection>
+  	<developerConnection>scm:git:https://github.com/talluru37/NeoGit</developerConnection>
+  	<tag>HEAD</tag>
+  </scm>
 </project>
