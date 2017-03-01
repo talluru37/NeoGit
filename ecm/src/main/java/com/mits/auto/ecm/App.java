@@ -10,4 +10,10 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+    
+    public String getMessage()
+    {
+    	System.out.println("inside getMessage");
+    	return "sucess";
+    }
 }
