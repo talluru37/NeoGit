@@ -3,7 +3,7 @@
 
 	<groupId>com.mits.auto</groupId>
 	<artifactId>ecm</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>ecm</name>
@@ -54,6 +54,6 @@
 		<url>https://github.com/talluru37/NeoGit</url>
 		<connection>scm:git:git://github.com/talluru37/NeoGit.git</connection>
 		<developerConnection>scm:git:https://github.com/talluru37/NeoGit</developerConnection>
-		<tag>HEAD</tag>
+		<tag>ecm-0.0.2</tag>
 	</scm>
 </project>
