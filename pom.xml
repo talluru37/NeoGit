@@ -87,7 +87,7 @@
  -->
 
   
-
+<!--
 <repositories>
 
 <repository>
@@ -102,7 +102,7 @@
 
 </repositories>
 
-
+ -->
 
 	<dependencies>
 
