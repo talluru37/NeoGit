@@ -24,16 +24,17 @@
       </plugin>
     </plugins>
   </build>
-  <properties>
-  	<lib>/mavenlib</lib>
-  </properties>
-  <dependencies>
-  	<dependency>
-  		<groupId>j2ee</groupId>
-  		<artifactId>j2ee</artifactId>
-  		<scope>system</scope>
-  		<systemPath>${lib}/j2ee.jar</systemPath>
-  		<version>1.4</version>
-  	</dependency>
-  </dependencies>
+ <dependency>
+    <groupId>j2ee</groupId>
+    <artifactId>J2ee</artifactId>
+    <version>1.4</version>
+</dependency>
+  
+<repositories>
+<repository>
+  <id>project-common</id>
+    <name>Project Common</name>
+    <url>https://raw.github.com/talluru37/Projects/maven-repo/</url>
+</repository>
+</repositories>
 </project>
